@@ -60,7 +60,4 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
 fi
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
-echo "ro.mod.version=$CUSTOM_VERSION"
-echo "ro.mod.build_date=$CUSTOM_BUILD_DATE"
-
 echo "# end build properties"
